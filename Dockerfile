@@ -10,4 +10,3 @@ RUN touch /home/jenkins/.ssh/known_hosts
 RUN ssh-keyscan github.com >> /home/jenkins/.ssh/known_hosts
 RUN ssh-keyscan bitbucket.org >> /home/jenkins/.ssh/known_hosts
 USER root
-
